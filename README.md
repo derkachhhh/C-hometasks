@@ -104,6 +104,8 @@ gcc advanced_6.c -o advanced6
 ./advanced6
 ```
 
+---
+
 ## 7. `7_c_list.h`, `7main.c`, `7_c_list.c`
 
 **Компіляція:**
@@ -113,6 +115,8 @@ make
 gcc -Wall -g -o test_list 7_c_list.c 7main.c
 valgrind ./test_list
 ```
+
+---
 
 ## 7. `getline.c, 7.2main.c`
 
@@ -124,6 +128,8 @@ gcc -Wall -g -o getline_test getline.c 7.2main.c
 valgrind ./getline_test
 ```
 
+---
+
 ## 8. `8c_list.h`, `8main.c`, `8c_list.c`
 
 **Компіляція:**
@@ -133,6 +139,8 @@ make
 g++ -Wall -g -o test_list 8c_list.c 8c_list_test.cpp -lgtest -lgtest_main -lpthread
 valgrind ./test_list
 ```
+
+---
 
 ## 8. `polygon.c, polygon.h, polygon.txt`
 
