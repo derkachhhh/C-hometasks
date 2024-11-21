@@ -105,6 +105,7 @@ gcc advanced_6.c -o advanced6
 ```
 
 ## 7. `7_c_list.h`, `7main.c`, `7_c_list.c`
+
 **Компіляція:**
 ```bash
 make
@@ -114,6 +115,7 @@ valgrind ./test_list
 ```
 
 ## 7. `getline.c, 7.2main.c`
+
 **Компіляція:**
 ```bash
 make
@@ -123,6 +125,8 @@ valgrind ./getline_test
 ```
 
 ## 8. `8c_list.h`, `8main.c`, `8c_list.c`
+
+**Компіляція:**
 ```bash
 make
 ./test_list
@@ -131,6 +135,8 @@ valgrind ./test_list
 ```
 
 ## 8. `polygon.c, polygon.h, polygon.txt`
+
+**Компіляція:**
 ```bash
 make
 ./polygon_test
