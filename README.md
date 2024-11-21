@@ -1,70 +1,105 @@
-2.
-### simple_xor.c
+# Інструкції для компіляції та запуску
+
+## 2. `simple_xor.c`
+
 ```bash
 gcc simple_xor.c -o simple_xor
-```bash
 ./simple_xor
+```
 
-### bagatosliv.c
+---
+
+## 2. `bagatosliv.c`
+
 ```bash
 gcc bagatosliv.c -o bagatosliv
-```bash
- ./bagatosliv
+./bagatosliv
+```
 
-### IEEE754.c
+---
+
+## 2. `IEEE754.c`
+
+**Компіляція:**
 ```bash
 gcc IEEE754.c -o ieee754 -lm
-```bash
 ./ieee754
+```
 
-3.
-### ceasar.c
+---
+
+## 3. `ceasar.c`
+
+**Компіляція:**
 ```bash
 gcc ceasar.c -o ceasar
-```bash
 ./ceasar
+```
 
-### masiv3.c
+---
+
+## 3. `masiv3.c`
+
+**Компіляція:**
 ```bash
 gcc masiv3.c -o masiv3
-```bash
 ./masiv3
+```
 
-4.
-### substring.c
+---
+
+## 4. `substring.c`
+
+**Компіляція:**
 ```bash
 gcc substring.c -o substring
-```bash
 ./substring
+```
 
-### advanced_4.c
+---
+
+## 4. `advanced_4.c`
+
+**Компіляція:**
 ```bash
 gcc advanced_4.c -o advanced4
-```bash
 ./advanced4
+```
 
-5.
-### bisection.h
+---
+
+## 5. `bisection.h`, `main.c`, `bisection.c`
+
+**Компіляція:**
 ```bash
 gcc main.c bisection.c -o main -lm
-```bash
 ./main
+```
 
+---
+
+**Тести:**
 ```bash
 gcc test.c bisection.c -o test -lm
-```bash
 ./test
+```
 
-6.
-### с_list_h
+---
+
+## 6. `c_list.h`, `6main.c`, `c_list.c`
+
+**Компіляція:**
 ```bash
 gcc 6main.c c_list.c -o c_list
-```bash
 ./c_list
+```
 
-### advanced_6.c
+---
+
+## 6. `advanced_6.c`
+
+**Компіляція:**
 ```bash
 gcc advanced_6.c -o advanced6
-```bash
 ./advanced6
-
+```
