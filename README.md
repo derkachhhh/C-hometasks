@@ -103,3 +103,37 @@ gcc 6main.c c_list.c -o c_list
 gcc advanced_6.c -o advanced6
 ./advanced6
 ```
+
+## 7. `7_c_list.h`, `7main.c`, `7_c_list.c`
+**Компіляція:**
+```bash
+make
+./test_list
+gcc -Wall -g -o test_list 7_c_list.c 7main.c
+valgrind ./test_list
+```
+
+## 7. `getline.c, 7.2main.c`
+**Компіляція:**
+```bash
+make
+./getline_test
+gcc -Wall -g -o getline_test getline.c 7.2main.c
+valgrind ./getline_test
+```
+
+## 8. `8c_list.h`, `8main.c`, `8c_list.c`
+```bash
+make
+./test_list
+g++ -Wall -g -o test_list 8c_list.c 8c_list_test.cpp -lgtest -lgtest_main -lpthread
+valgrind ./test_list
+```
+
+## 8. `polygon.c, polygon.h, polygon.txt`
+```bash
+make
+./polygon_test
+gcc -Wall -g -o polygon_test polygon.c
+valgrind ./polygon_test
+```
