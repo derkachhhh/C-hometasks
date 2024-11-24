@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+TARGET = getline_program
+SRCS = 7.2main.c getline.c
+OBJS = $(SRCS:.c=.o)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	rm -f $(TARGET) $(OBJS)
